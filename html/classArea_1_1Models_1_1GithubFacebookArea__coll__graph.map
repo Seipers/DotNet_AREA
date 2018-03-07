@@ -1,0 +1,7 @@
+<map id="Area.Models.GithubFacebookArea" name="Area.Models.GithubFacebookArea">
+<area shape="rect" id="node2" href="$interfaceArea_1_1Models_1_1IArea.html" title="{IArea\n||+ run()\l+ isAvailable()\l}" alt="" coords="5,227,124,319"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1GithubModuleModel.html" title="{Area.Models.GithubModule\lModel\n|&#45; access_token\l&#45; index\l|+ GithubModuleModel()\l+ setAccessToken()\l+ getAccessToken()\l+ getPublicInfos()\l+ getActions()\l+ createRepo()\l+ getAction()\l+ postReaction()\l}" alt="" coords="148,169,347,378"/>
+<area shape="rect" id="node4" href="$interfaceArea_1_1Models_1_1IModuleModel.html" title="{IModuleModel\n||+ getAction()\l+ postReaction()\l}" alt="" coords="297,5,429,97"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1FacebookModule.html" title="{Area.Models.FacebookModule\n|&#45; _fb\l&#45; _index\l&#45; actions\l|+ FacebookModule()\l+ getAccessToken()\l+ setIndex()\l+ PostOnFacebook()\l+ GetEmail()\l+ GetCover()\l+ GetFullName()\l+ GetFirstName()\l+ GetLastName()\l+ GetAgeRange()\land 7 more...\l}" alt="" coords="371,147,590,400"/>
+<area shape="rect" id="node5" href="$classArea_1_1Models_1_1AREA.html" title="{Area.Models.AREA\n|+ id\l+ username\l+ type\l+ index_action\l+ index_reaction\l+ last_event\l|}" alt="" coords="615,198,757,349"/>
+</map>

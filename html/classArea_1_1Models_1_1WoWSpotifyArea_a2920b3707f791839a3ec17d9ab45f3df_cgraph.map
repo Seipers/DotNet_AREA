@@ -1,0 +1,8 @@
+<map id="Area.Models.WoWSpotifyArea.run" name="Area.Models.WoWSpotifyArea.run">
+<area shape="rect" id="node2" href="$classArea_1_1Models_1_1WoWModuleModel.html#a30fec7fe49970aa15353e165c70595c8" title="Area.Models.WoWModuleModel.get\lIndex" alt="" coords="310,5,565,47"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1WoWModuleModel.html#a5b0f580381e294a2780280f977df3c82" title="Area.Models.WoWModuleModel.get\lCharacters" alt="" coords="310,71,565,112"/>
+<area shape="rect" id="node4" href="$classArea_1_1Models_1_1WoWModuleModel.html#ad72c3aa9fcf7c7327103e6d885b3b11e" title="Area.Models.WoWModuleModel.already\lExists" alt="" coords="296,136,579,177"/>
+<area shape="rect" id="node5" href="$classArea_1_1Models_1_1SpotifyModule.html#a54a02b412af1c23ffa05f0bc9c7bd228" title="Area.Models.SpotifyModule.post\lReaction" alt="" coords="321,201,554,243"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1WoWModuleModel.html#a3ed39b2aeec20f1d908d9c6e43aad389" title="Area.Models.WoWModuleModel.get\lAction" alt="" coords="310,267,565,308"/>
+<area shape="rect" id="node7" href="$classArea_1_1Models_1_1WoWModuleModel.html#afe80d3a4a6c090c38add2b91aa55b2c0" title="Area.Models.WoWModuleModel.check\lAndUpdateCharacter" alt="" coords="302,332,573,373"/>
+</map>

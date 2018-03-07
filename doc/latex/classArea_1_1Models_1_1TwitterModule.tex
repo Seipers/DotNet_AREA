@@ -1,0 +1,149 @@
+\hypertarget{classArea_1_1Models_1_1TwitterModule}{}\section{Area.\+Models.\+Twitter\+Module Class Reference}
+\label{classArea_1_1Models_1_1TwitterModule}\index{Area.\+Models.\+Twitter\+Module@{Area.\+Models.\+Twitter\+Module}}
+
+
+Inheritance diagram for Area.\+Models.\+Twitter\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classArea_1_1Models_1_1TwitterModule__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Area.\+Models.\+Twitter\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classArea_1_1Models_1_1TwitterModule__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_aa0724f8694608093cb2f666a261b6a17}{Twitter\+Module}} (string Access\+Token, string Access\+Token\+Secret, int \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a287e1b50557ce5e03cf8a5cf70ed2696}{index}})
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a6baea70831508a7115930746687eabbd}{Post\+Tweet}} (string post)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a8b1c5f0f64f1009c88eea9738d01839c}{Get\+My\+Last\+Tweet}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_ae26abbc1e8056912e728d696a2111caa}{Get\+Last\+Hash\+Tag}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a80551107a68f78bf23d57948dcbe5a6d}{get\+Action}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a2dd56c4273c09ea000d0229bb9d19019}{post\+Reaction}} (string reaction)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a1e54918961c13e477bf3b1db6221d409}{access\+\_\+token}}
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_ad21df823c729272d61536f84e8c74616}{secret\+\_\+token}}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a287e1b50557ce5e03cf8a5cf70ed2696}{index}}
+\item 
+Twitter\+Service \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_a7ebe89d232b1da290dec450921d988d1}{twitter}}
+\item 
+Dictionary$<$ int, Action$<$ string $>$ $>$ \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_ab7ac239101796d41d58c6a481e8cce06}{reactions}} = new Dictionary$<$int, Action$<$string$>$$>$()
+\item 
+Dictionary$<$ int, Func$<$ string $>$ $>$ \mbox{\hyperlink{classArea_1_1Models_1_1TwitterModule_aedfc4fc98bbb3e3810e39614fdb2cb39}{actions}} = new Dictionary$<$int, Func$<$string$>$$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_aa0724f8694608093cb2f666a261b6a17}\label{classArea_1_1Models_1_1TwitterModule_aa0724f8694608093cb2f666a261b6a17}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!Twitter\+Module@{Twitter\+Module}}
+\index{Twitter\+Module@{Twitter\+Module}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{Twitter\+Module()}{TwitterModule()}}
+{\footnotesize\ttfamily Area.\+Models.\+Twitter\+Module.\+Twitter\+Module (\begin{DoxyParamCaption}\item[{string}]{Access\+Token,  }\item[{string}]{Access\+Token\+Secret,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a80551107a68f78bf23d57948dcbe5a6d}\label{classArea_1_1Models_1_1TwitterModule_a80551107a68f78bf23d57948dcbe5a6d}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!get\+Action@{get\+Action}}
+\index{get\+Action@{get\+Action}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{get\+Action()}{getAction()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Twitter\+Module.\+get\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_a050d892fae9f85c6b607a7c0e30502e9}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_ae26abbc1e8056912e728d696a2111caa}\label{classArea_1_1Models_1_1TwitterModule_ae26abbc1e8056912e728d696a2111caa}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!Get\+Last\+Hash\+Tag@{Get\+Last\+Hash\+Tag}}
+\index{Get\+Last\+Hash\+Tag@{Get\+Last\+Hash\+Tag}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{Get\+Last\+Hash\+Tag()}{GetLastHashTag()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Twitter\+Module.\+Get\+Last\+Hash\+Tag (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a8b1c5f0f64f1009c88eea9738d01839c}\label{classArea_1_1Models_1_1TwitterModule_a8b1c5f0f64f1009c88eea9738d01839c}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!Get\+My\+Last\+Tweet@{Get\+My\+Last\+Tweet}}
+\index{Get\+My\+Last\+Tweet@{Get\+My\+Last\+Tweet}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{Get\+My\+Last\+Tweet()}{GetMyLastTweet()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Twitter\+Module.\+Get\+My\+Last\+Tweet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a2dd56c4273c09ea000d0229bb9d19019}\label{classArea_1_1Models_1_1TwitterModule_a2dd56c4273c09ea000d0229bb9d19019}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!post\+Reaction@{post\+Reaction}}
+\index{post\+Reaction@{post\+Reaction}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{post\+Reaction()}{postReaction()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Twitter\+Module.\+post\+Reaction (\begin{DoxyParamCaption}\item[{string}]{reaction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_af2c1a82bd894255ab2099440f4f3d6f7}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a6baea70831508a7115930746687eabbd}\label{classArea_1_1Models_1_1TwitterModule_a6baea70831508a7115930746687eabbd}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!Post\+Tweet@{Post\+Tweet}}
+\index{Post\+Tweet@{Post\+Tweet}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{Post\+Tweet()}{PostTweet()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Twitter\+Module.\+Post\+Tweet (\begin{DoxyParamCaption}\item[{string}]{post }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a1e54918961c13e477bf3b1db6221d409}\label{classArea_1_1Models_1_1TwitterModule_a1e54918961c13e477bf3b1db6221d409}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!access\+\_\+token@{access\+\_\+token}}
+\index{access\+\_\+token@{access\+\_\+token}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{access\+\_\+token}{access\_token}}
+{\footnotesize\ttfamily string Area.\+Models.\+Twitter\+Module.\+access\+\_\+token}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_aedfc4fc98bbb3e3810e39614fdb2cb39}\label{classArea_1_1Models_1_1TwitterModule_aedfc4fc98bbb3e3810e39614fdb2cb39}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!actions@{actions}}
+\index{actions@{actions}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{actions}{actions}}
+{\footnotesize\ttfamily Dictionary$<$int, Func$<$string$>$ $>$ Area.\+Models.\+Twitter\+Module.\+actions = new Dictionary$<$int, Func$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a287e1b50557ce5e03cf8a5cf70ed2696}\label{classArea_1_1Models_1_1TwitterModule_a287e1b50557ce5e03cf8a5cf70ed2696}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!index@{index}}
+\index{index@{index}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int Area.\+Models.\+Twitter\+Module.\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_ab7ac239101796d41d58c6a481e8cce06}\label{classArea_1_1Models_1_1TwitterModule_ab7ac239101796d41d58c6a481e8cce06}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!reactions@{reactions}}
+\index{reactions@{reactions}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{reactions}{reactions}}
+{\footnotesize\ttfamily Dictionary$<$int, Action$<$string$>$ $>$ Area.\+Models.\+Twitter\+Module.\+reactions = new Dictionary$<$int, Action$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_ad21df823c729272d61536f84e8c74616}\label{classArea_1_1Models_1_1TwitterModule_ad21df823c729272d61536f84e8c74616}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!secret\+\_\+token@{secret\+\_\+token}}
+\index{secret\+\_\+token@{secret\+\_\+token}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{secret\+\_\+token}{secret\_token}}
+{\footnotesize\ttfamily string Area.\+Models.\+Twitter\+Module.\+secret\+\_\+token}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1TwitterModule_a7ebe89d232b1da290dec450921d988d1}\label{classArea_1_1Models_1_1TwitterModule_a7ebe89d232b1da290dec450921d988d1}} 
+\index{Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}!twitter@{twitter}}
+\index{twitter@{twitter}!Area\+::\+Models\+::\+Twitter\+Module@{Area\+::\+Models\+::\+Twitter\+Module}}
+\subsubsection{\texorpdfstring{twitter}{twitter}}
+{\footnotesize\ttfamily Twitter\+Service Area.\+Models.\+Twitter\+Module.\+twitter\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\+Modules/\mbox{\hyperlink{TwitterModule_8cs}{Twitter\+Module.\+cs}}\end{DoxyCompactItemize}

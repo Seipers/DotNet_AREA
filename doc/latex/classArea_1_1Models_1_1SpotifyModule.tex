@@ -1,0 +1,173 @@
+\hypertarget{classArea_1_1Models_1_1SpotifyModule}{}\section{Area.\+Models.\+Spotify\+Module Class Reference}
+\label{classArea_1_1Models_1_1SpotifyModule}\index{Area.\+Models.\+Spotify\+Module@{Area.\+Models.\+Spotify\+Module}}
+
+
+Inheritance diagram for Area.\+Models.\+Spotify\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classArea_1_1Models_1_1SpotifyModule__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Area.\+Models.\+Spotify\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{classArea_1_1Models_1_1SpotifyModule__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a8bf87195b9980a22f5183a05242cd18c}{Spotify\+Module}} (string \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_aff156c8f9328648cb5a505b7f98bc030}{access\+\_\+token}}, int \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_acef664652a467d8655e04497e88a7dc5}{index}})
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_aa47b97c81021848c70064a367c08805f}{Play\+Music}} (string name)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_ae1358a3a515e5b3fbe8773cecfbc22ec}{Play\+Album}} (string name)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_aa0fafbd764f8c309c80fb2f2c7d038f7}{Play\+Playlist}} (string name)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a6ca01223242bdb1c1427c881ce3507f4}{Play\+Artist}} (string name)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_ab332e436227b77bc9d9938f29b22809d}{Create\+Playlist}} (string name)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a81dd73b8c192fb2c22359f53e435b226}{Add\+Music\+Playlist}} (string music)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a7125a2bf51f38f62cce6693ece4e1c2d}{get\+Current\+Music}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_ad506554a80eb35db2d6d9c251f38a5b7}{get\+Action}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a54a02b412af1c23ffa05f0bc9c7bd228}{post\+Reaction}} (string reaction)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_aff156c8f9328648cb5a505b7f98bc030}{access\+\_\+token}}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Spotify\+Web\+A\+PI \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a841a0a7d42a90725228be8d7968d904c}{spotify}}
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_acef664652a467d8655e04497e88a7dc5}{index}}
+\item 
+Dictionary$<$ int, Action$<$ string $>$ $>$ \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a0cb6ab3cf7f02ab950500d9f89b5a191}{reactions}} = new Dictionary$<$int, Action$<$string$>$$>$()
+\item 
+Dictionary$<$ int, Func$<$ string $>$ $>$ \mbox{\hyperlink{classArea_1_1Models_1_1SpotifyModule_a475a3891ed32168f52786c8eda6c960a}{actions}} = new Dictionary$<$int, Func$<$string$>$$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a8bf87195b9980a22f5183a05242cd18c}\label{classArea_1_1Models_1_1SpotifyModule_a8bf87195b9980a22f5183a05242cd18c}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Spotify\+Module@{Spotify\+Module}}
+\index{Spotify\+Module@{Spotify\+Module}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Spotify\+Module()}{SpotifyModule()}}
+{\footnotesize\ttfamily Area.\+Models.\+Spotify\+Module.\+Spotify\+Module (\begin{DoxyParamCaption}\item[{string}]{access\+\_\+token,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a81dd73b8c192fb2c22359f53e435b226}\label{classArea_1_1Models_1_1SpotifyModule_a81dd73b8c192fb2c22359f53e435b226}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Add\+Music\+Playlist@{Add\+Music\+Playlist}}
+\index{Add\+Music\+Playlist@{Add\+Music\+Playlist}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Add\+Music\+Playlist()}{AddMusicPlaylist()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Add\+Music\+Playlist (\begin{DoxyParamCaption}\item[{string}]{music }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_ab332e436227b77bc9d9938f29b22809d}\label{classArea_1_1Models_1_1SpotifyModule_ab332e436227b77bc9d9938f29b22809d}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Create\+Playlist@{Create\+Playlist}}
+\index{Create\+Playlist@{Create\+Playlist}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Create\+Playlist()}{CreatePlaylist()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Create\+Playlist (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_ad506554a80eb35db2d6d9c251f38a5b7}\label{classArea_1_1Models_1_1SpotifyModule_ad506554a80eb35db2d6d9c251f38a5b7}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!get\+Action@{get\+Action}}
+\index{get\+Action@{get\+Action}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{get\+Action()}{getAction()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Spotify\+Module.\+get\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_a050d892fae9f85c6b607a7c0e30502e9}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a7125a2bf51f38f62cce6693ece4e1c2d}\label{classArea_1_1Models_1_1SpotifyModule_a7125a2bf51f38f62cce6693ece4e1c2d}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!get\+Current\+Music@{get\+Current\+Music}}
+\index{get\+Current\+Music@{get\+Current\+Music}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{get\+Current\+Music()}{getCurrentMusic()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Spotify\+Module.\+get\+Current\+Music (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_ae1358a3a515e5b3fbe8773cecfbc22ec}\label{classArea_1_1Models_1_1SpotifyModule_ae1358a3a515e5b3fbe8773cecfbc22ec}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Play\+Album@{Play\+Album}}
+\index{Play\+Album@{Play\+Album}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Play\+Album()}{PlayAlbum()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Play\+Album (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a6ca01223242bdb1c1427c881ce3507f4}\label{classArea_1_1Models_1_1SpotifyModule_a6ca01223242bdb1c1427c881ce3507f4}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Play\+Artist@{Play\+Artist}}
+\index{Play\+Artist@{Play\+Artist}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Play\+Artist()}{PlayArtist()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Play\+Artist (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_aa47b97c81021848c70064a367c08805f}\label{classArea_1_1Models_1_1SpotifyModule_aa47b97c81021848c70064a367c08805f}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Play\+Music@{Play\+Music}}
+\index{Play\+Music@{Play\+Music}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Play\+Music()}{PlayMusic()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Play\+Music (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_aa0fafbd764f8c309c80fb2f2c7d038f7}\label{classArea_1_1Models_1_1SpotifyModule_aa0fafbd764f8c309c80fb2f2c7d038f7}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!Play\+Playlist@{Play\+Playlist}}
+\index{Play\+Playlist@{Play\+Playlist}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{Play\+Playlist()}{PlayPlaylist()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+Play\+Playlist (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a54a02b412af1c23ffa05f0bc9c7bd228}\label{classArea_1_1Models_1_1SpotifyModule_a54a02b412af1c23ffa05f0bc9c7bd228}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!post\+Reaction@{post\+Reaction}}
+\index{post\+Reaction@{post\+Reaction}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{post\+Reaction()}{postReaction()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Spotify\+Module.\+post\+Reaction (\begin{DoxyParamCaption}\item[{string}]{reaction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_af2c1a82bd894255ab2099440f4f3d6f7}{Area.\+Models.\+I\+Module\+Model}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_aff156c8f9328648cb5a505b7f98bc030}\label{classArea_1_1Models_1_1SpotifyModule_aff156c8f9328648cb5a505b7f98bc030}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!access\+\_\+token@{access\+\_\+token}}
+\index{access\+\_\+token@{access\+\_\+token}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{access\+\_\+token}{access\_token}}
+{\footnotesize\ttfamily string Area.\+Models.\+Spotify\+Module.\+access\+\_\+token}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a475a3891ed32168f52786c8eda6c960a}\label{classArea_1_1Models_1_1SpotifyModule_a475a3891ed32168f52786c8eda6c960a}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!actions@{actions}}
+\index{actions@{actions}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{actions}{actions}}
+{\footnotesize\ttfamily Dictionary$<$int, Func$<$string$>$ $>$ Area.\+Models.\+Spotify\+Module.\+actions = new Dictionary$<$int, Func$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_acef664652a467d8655e04497e88a7dc5}\label{classArea_1_1Models_1_1SpotifyModule_acef664652a467d8655e04497e88a7dc5}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!index@{index}}
+\index{index@{index}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int Area.\+Models.\+Spotify\+Module.\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a0cb6ab3cf7f02ab950500d9f89b5a191}\label{classArea_1_1Models_1_1SpotifyModule_a0cb6ab3cf7f02ab950500d9f89b5a191}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!reactions@{reactions}}
+\index{reactions@{reactions}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{reactions}{reactions}}
+{\footnotesize\ttfamily Dictionary$<$int, Action$<$string$>$ $>$ Area.\+Models.\+Spotify\+Module.\+reactions = new Dictionary$<$int, Action$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1SpotifyModule_a841a0a7d42a90725228be8d7968d904c}\label{classArea_1_1Models_1_1SpotifyModule_a841a0a7d42a90725228be8d7968d904c}} 
+\index{Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}!spotify@{spotify}}
+\index{spotify@{spotify}!Area\+::\+Models\+::\+Spotify\+Module@{Area\+::\+Models\+::\+Spotify\+Module}}
+\subsubsection{\texorpdfstring{spotify}{spotify}}
+{\footnotesize\ttfamily Spotify\+Web\+A\+PI Area.\+Models.\+Spotify\+Module.\+spotify\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\+Modules/\mbox{\hyperlink{SpotifyModule_8cs}{Spotify\+Module.\+cs}}\end{DoxyCompactItemize}

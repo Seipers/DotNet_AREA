@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "WoWProfileInfo";
+}
+@using Area.Models;
+@{
+    var characters = ViewData["Characters"] as List<WoWCharacterModel>;    
+}
+
+@foreach (var x in characters)
+    {
+<h1>@x.name in -@x.guild- on realm @x.realm is level @x.level </h1>
+    }

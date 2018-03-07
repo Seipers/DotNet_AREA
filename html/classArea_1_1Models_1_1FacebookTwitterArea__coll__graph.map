@@ -1,0 +1,7 @@
+<map id="Area.Models.FacebookTwitterArea" name="Area.Models.FacebookTwitterArea">
+<area shape="rect" id="node2" href="$interfaceArea_1_1Models_1_1IArea.html" title="{IArea\n||+ run()\l+ isAvailable()\l}" alt="" coords="5,227,124,319"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1AREA.html" title="{Area.Models.AREA\n|+ id\l+ username\l+ type\l+ index_action\l+ index_reaction\l+ last_event\l|}" alt="" coords="148,198,291,349"/>
+<area shape="rect" id="node4" href="$classArea_1_1Models_1_1TwitterModule.html" title="{Area.Models.TwitterModule\n|+ access_token\l+ secret_token\l&#45; index\l&#45; twitter\l&#45; reactions\l&#45; actions\l|+ TwitterModule()\l+ PostTweet()\l+ GetMyLastTweet()\l+ GetLastHashTag()\l+ getAction()\l+ postReaction()\l}" alt="" coords="315,161,516,385"/>
+<area shape="rect" id="node5" href="$interfaceArea_1_1Models_1_1IModuleModel.html" title="{IModuleModel\n||+ getAction()\l+ postReaction()\l}" alt="" coords="465,5,597,97"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1FacebookModule.html" title="{Area.Models.FacebookModule\n|&#45; _fb\l&#45; _index\l&#45; actions\l|+ FacebookModule()\l+ getAccessToken()\l+ setIndex()\l+ PostOnFacebook()\l+ GetEmail()\l+ GetCover()\l+ GetFullName()\l+ GetFirstName()\l+ GetLastName()\l+ GetAgeRange()\land 7 more...\l}" alt="" coords="541,147,759,400"/>
+</map>

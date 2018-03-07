@@ -1,0 +1,234 @@
+\hypertarget{classArea_1_1Models_1_1WoWModuleModel}{}\section{Area.\+Models.\+Wo\+W\+Module\+Model Class Reference}
+\label{classArea_1_1Models_1_1WoWModuleModel}\index{Area.\+Models.\+Wo\+W\+Module\+Model@{Area.\+Models.\+Wo\+W\+Module\+Model}}
+
+
+Inheritance diagram for Area.\+Models.\+Wo\+W\+Module\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{classArea_1_1Models_1_1WoWModuleModel__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Area.\+Models.\+Wo\+W\+Module\+Model\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{classArea_1_1Models_1_1WoWModuleModel__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a515697f205e3c05e96e5cacc95c16800}{Wo\+W\+Module\+Model}} (string token, int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_aac650af907ed739ace201b3b5d616bb7}{index}})
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a7f03216eb89034c3097b540a26addb0a}{set\+Access\+Token}} (string token)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a6610d851f47e22d7b7c3a379613ffa8f}{get\+Access\+Token}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_aa61b3bbefb103d8ab29e904746903ffc}{set\+Index}} (int idx)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a30fec7fe49970aa15353e165c70595c8}{get\+Index}} ()
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a5290aa1a5920a181d776c1141e61e6fb}{get\+Deaths}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a693db2f43310edc63c5a99699cce3c23}{get\+Facepalmed}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_af0374d1e82b3ba9629f2650f53f59499}{get\+Level}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a865cb3b6f7f3813b023b16a910058289}{get\+Quests\+Done}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_aaa1e7b11adc37c085ad229144def8276}{get\+Fish\+Caught}} (string realm, string name)
+\item 
+List$<$ \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} $>$ \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a5b0f580381e294a2780280f977df3c82}{get\+Characters}} ()
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a84837c4b1596b77f20e2c5c8bf7ea175}{get\+All\+Infos}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_ab2b61af7b2f25f528aa4f13b1f6a003f}{get\+New\+Character\+Stat}} (string realm, string name)
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a56e8c118476cac7b8215f3c9854b0940}{get\+Current\+Character\+Stat}} (\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} character)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a300d26f5cbb39e4176a39f1a7b1e9991}{update\+Character}} (int stat, \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} character, \mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}} DB)
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a83ef0a015538f89f334116748c95aec6}{find\+Character\+Model}} (string realm, string name, \mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}} DB)
+\item 
+bool \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_afe80d3a4a6c090c38add2b91aa55b2c0}{check\+And\+Update\+Character}} (\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} charact, \mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}} DB)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a063f2a1a7837561b588f016d828061ee}{get\+Character\+Action}} (\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} character)
+\item 
+bool \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_ad72c3aa9fcf7c7327103e6d885b3b11e}{already\+Exists}} (List$<$ \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} $>$ existing\+\_\+characters, \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} character)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a3ed39b2aeec20f1d908d9c6e43aad389}{get\+Action}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a04335d82b02dd3cfe3b9ae0cb47125f6}{post\+Reaction}} (string reaction)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_a21d75a09cbc7636a9b0984af052e2b4f}{access\+\_\+token}}
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1WoWModuleModel_aac650af907ed739ace201b3b5d616bb7}{index}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a515697f205e3c05e96e5cacc95c16800}\label{classArea_1_1Models_1_1WoWModuleModel_a515697f205e3c05e96e5cacc95c16800}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!Wo\+W\+Module\+Model@{Wo\+W\+Module\+Model}}
+\index{Wo\+W\+Module\+Model@{Wo\+W\+Module\+Model}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{Wo\+W\+Module\+Model()}{WoWModuleModel()}}
+{\footnotesize\ttfamily Area.\+Models.\+Wo\+W\+Module\+Model.\+Wo\+W\+Module\+Model (\begin{DoxyParamCaption}\item[{string}]{token,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_ad72c3aa9fcf7c7327103e6d885b3b11e}\label{classArea_1_1Models_1_1WoWModuleModel_ad72c3aa9fcf7c7327103e6d885b3b11e}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!already\+Exists@{already\+Exists}}
+\index{already\+Exists@{already\+Exists}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{already\+Exists()}{alreadyExists()}}
+{\footnotesize\ttfamily bool Area.\+Models.\+Wo\+W\+Module\+Model.\+already\+Exists (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} $>$}]{existing\+\_\+characters,  }\item[{\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}}]{character }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_afe80d3a4a6c090c38add2b91aa55b2c0}\label{classArea_1_1Models_1_1WoWModuleModel_afe80d3a4a6c090c38add2b91aa55b2c0}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!check\+And\+Update\+Character@{check\+And\+Update\+Character}}
+\index{check\+And\+Update\+Character@{check\+And\+Update\+Character}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{check\+And\+Update\+Character()}{checkAndUpdateCharacter()}}
+{\footnotesize\ttfamily bool Area.\+Models.\+Wo\+W\+Module\+Model.\+check\+And\+Update\+Character (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}}]{charact,  }\item[{\mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}}}]{DB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a83ef0a015538f89f334116748c95aec6}\label{classArea_1_1Models_1_1WoWModuleModel_a83ef0a015538f89f334116748c95aec6}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!find\+Character\+Model@{find\+Character\+Model}}
+\index{find\+Character\+Model@{find\+Character\+Model}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{find\+Character\+Model()}{findCharacterModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} Area.\+Models.\+Wo\+W\+Module\+Model.\+find\+Character\+Model (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name,  }\item[{\mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}}}]{DB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a6610d851f47e22d7b7c3a379613ffa8f}\label{classArea_1_1Models_1_1WoWModuleModel_a6610d851f47e22d7b7c3a379613ffa8f}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Access\+Token@{get\+Access\+Token}}
+\index{get\+Access\+Token@{get\+Access\+Token}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Access\+Token()}{getAccessToken()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Access\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a3ed39b2aeec20f1d908d9c6e43aad389}\label{classArea_1_1Models_1_1WoWModuleModel_a3ed39b2aeec20f1d908d9c6e43aad389}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Action@{get\+Action}}
+\index{get\+Action@{get\+Action}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Action()}{getAction()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_a050d892fae9f85c6b607a7c0e30502e9}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a84837c4b1596b77f20e2c5c8bf7ea175}\label{classArea_1_1Models_1_1WoWModuleModel_a84837c4b1596b77f20e2c5c8bf7ea175}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+All\+Infos@{get\+All\+Infos}}
+\index{get\+All\+Infos@{get\+All\+Infos}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+All\+Infos()}{getAllInfos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}} Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+All\+Infos (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a063f2a1a7837561b588f016d828061ee}\label{classArea_1_1Models_1_1WoWModuleModel_a063f2a1a7837561b588f016d828061ee}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Character\+Action@{get\+Character\+Action}}
+\index{get\+Character\+Action@{get\+Character\+Action}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Character\+Action()}{getCharacterAction()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Character\+Action (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}}]{character }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a5b0f580381e294a2780280f977df3c82}\label{classArea_1_1Models_1_1WoWModuleModel_a5b0f580381e294a2780280f977df3c82}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Characters@{get\+Characters}}
+\index{get\+Characters@{get\+Characters}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Characters()}{getCharacters()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}$>$ Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Characters (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a56e8c118476cac7b8215f3c9854b0940}\label{classArea_1_1Models_1_1WoWModuleModel_a56e8c118476cac7b8215f3c9854b0940}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Current\+Character\+Stat@{get\+Current\+Character\+Stat}}
+\index{get\+Current\+Character\+Stat@{get\+Current\+Character\+Stat}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Current\+Character\+Stat()}{getCurrentCharacterStat()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Current\+Character\+Stat (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}}]{character }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a5290aa1a5920a181d776c1141e61e6fb}\label{classArea_1_1Models_1_1WoWModuleModel_a5290aa1a5920a181d776c1141e61e6fb}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Deaths@{get\+Deaths}}
+\index{get\+Deaths@{get\+Deaths}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Deaths()}{getDeaths()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Deaths (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a693db2f43310edc63c5a99699cce3c23}\label{classArea_1_1Models_1_1WoWModuleModel_a693db2f43310edc63c5a99699cce3c23}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Facepalmed@{get\+Facepalmed}}
+\index{get\+Facepalmed@{get\+Facepalmed}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Facepalmed()}{getFacepalmed()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Facepalmed (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_aaa1e7b11adc37c085ad229144def8276}\label{classArea_1_1Models_1_1WoWModuleModel_aaa1e7b11adc37c085ad229144def8276}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Fish\+Caught@{get\+Fish\+Caught}}
+\index{get\+Fish\+Caught@{get\+Fish\+Caught}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Fish\+Caught()}{getFishCaught()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Fish\+Caught (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a30fec7fe49970aa15353e165c70595c8}\label{classArea_1_1Models_1_1WoWModuleModel_a30fec7fe49970aa15353e165c70595c8}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Index@{get\+Index}}
+\index{get\+Index@{get\+Index}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Index()}{getIndex()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Index (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_af0374d1e82b3ba9629f2650f53f59499}\label{classArea_1_1Models_1_1WoWModuleModel_af0374d1e82b3ba9629f2650f53f59499}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Level@{get\+Level}}
+\index{get\+Level@{get\+Level}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Level()}{getLevel()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Level (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_ab2b61af7b2f25f528aa4f13b1f6a003f}\label{classArea_1_1Models_1_1WoWModuleModel_ab2b61af7b2f25f528aa4f13b1f6a003f}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+New\+Character\+Stat@{get\+New\+Character\+Stat}}
+\index{get\+New\+Character\+Stat@{get\+New\+Character\+Stat}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+New\+Character\+Stat()}{getNewCharacterStat()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+New\+Character\+Stat (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a865cb3b6f7f3813b023b16a910058289}\label{classArea_1_1Models_1_1WoWModuleModel_a865cb3b6f7f3813b023b16a910058289}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!get\+Quests\+Done@{get\+Quests\+Done}}
+\index{get\+Quests\+Done@{get\+Quests\+Done}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{get\+Quests\+Done()}{getQuestsDone()}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+get\+Quests\+Done (\begin{DoxyParamCaption}\item[{string}]{realm,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a04335d82b02dd3cfe3b9ae0cb47125f6}\label{classArea_1_1Models_1_1WoWModuleModel_a04335d82b02dd3cfe3b9ae0cb47125f6}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!post\+Reaction@{post\+Reaction}}
+\index{post\+Reaction@{post\+Reaction}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{post\+Reaction()}{postReaction()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Wo\+W\+Module\+Model.\+post\+Reaction (\begin{DoxyParamCaption}\item[{string}]{reaction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_af2c1a82bd894255ab2099440f4f3d6f7}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a7f03216eb89034c3097b540a26addb0a}\label{classArea_1_1Models_1_1WoWModuleModel_a7f03216eb89034c3097b540a26addb0a}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!set\+Access\+Token@{set\+Access\+Token}}
+\index{set\+Access\+Token@{set\+Access\+Token}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{set\+Access\+Token()}{setAccessToken()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Wo\+W\+Module\+Model.\+set\+Access\+Token (\begin{DoxyParamCaption}\item[{string}]{token }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_aa61b3bbefb103d8ab29e904746903ffc}\label{classArea_1_1Models_1_1WoWModuleModel_aa61b3bbefb103d8ab29e904746903ffc}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!set\+Index@{set\+Index}}
+\index{set\+Index@{set\+Index}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{set\+Index()}{setIndex()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Wo\+W\+Module\+Model.\+set\+Index (\begin{DoxyParamCaption}\item[{int}]{idx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a300d26f5cbb39e4176a39f1a7b1e9991}\label{classArea_1_1Models_1_1WoWModuleModel_a300d26f5cbb39e4176a39f1a7b1e9991}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!update\+Character@{update\+Character}}
+\index{update\+Character@{update\+Character}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{update\+Character()}{updateCharacter()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Wo\+W\+Module\+Model.\+update\+Character (\begin{DoxyParamCaption}\item[{int}]{stat,  }\item[{\mbox{\hyperlink{classArea_1_1Models_1_1WoWCharacterModel}{Wo\+W\+Character\+Model}}}]{character,  }\item[{\mbox{\hyperlink{classArea_1_1DAT_1_1AreaDbContext}{Area\+Db\+Context}}}]{DB }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_a21d75a09cbc7636a9b0984af052e2b4f}\label{classArea_1_1Models_1_1WoWModuleModel_a21d75a09cbc7636a9b0984af052e2b4f}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!access\+\_\+token@{access\+\_\+token}}
+\index{access\+\_\+token@{access\+\_\+token}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{access\+\_\+token}{access\_token}}
+{\footnotesize\ttfamily string Area.\+Models.\+Wo\+W\+Module\+Model.\+access\+\_\+token\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1WoWModuleModel_aac650af907ed739ace201b3b5d616bb7}\label{classArea_1_1Models_1_1WoWModuleModel_aac650af907ed739ace201b3b5d616bb7}} 
+\index{Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}!index@{index}}
+\index{index@{index}!Area\+::\+Models\+::\+Wo\+W\+Module\+Model@{Area\+::\+Models\+::\+Wo\+W\+Module\+Model}}
+\subsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily int Area.\+Models.\+Wo\+W\+Module\+Model.\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\+Modules/\mbox{\hyperlink{WoWModuleModel_8cs}{Wo\+W\+Module\+Model.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="Area.Startup.Configure" name="Area.Startup.Configure">
+<area shape="rect" id="node2" href="$classArea_1_1Startup.html#a9b27cf1a646fe7912ff7d911f65b1921" title="Area.Startup.runAreas" alt="" coords="224,31,389,57"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1AreaFactory.html#a39c7070acc78dddbde39b9e12df26c3d" title="Area.Models.AreaFactory.create" alt="" coords="437,5,668,32"/>
+<area shape="rect" id="node4" href="$interfaceArea_1_1Models_1_1IArea.html#af153822d2715dad8eb1c250bcc4de567" title="Area.Models.IArea.run" alt="" coords="469,56,636,83"/>
+</map>

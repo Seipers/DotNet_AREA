@@ -1,0 +1,7 @@
+<map id="Area.Models.WoWTwitterArea" name="Area.Models.WoWTwitterArea">
+<area shape="rect" id="node2" href="$interfaceArea_1_1Models_1_1IArea.html" title="{IArea\n||+ run()\l+ isAvailable()\l}" alt="" coords="5,220,124,312"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1WoWModuleModel.html" title="{Area.Models.WoWModuleModel\n|&#45; access_token\l&#45; index\l|+ WoWModuleModel()\l+ setAccessToken()\l+ getAccessToken()\l+ setIndex()\l+ getIndex()\l+ getDeaths()\l+ getFacepalmed()\l+ getLevel()\l+ getQuestsDone()\l+ getFishCaught()\land 11 more...\l}" alt="" coords="149,147,378,385"/>
+<area shape="rect" id="node4" href="$interfaceArea_1_1Models_1_1IModuleModel.html" title="{IModuleModel\n||+ getAction()\l+ postReaction()\l}" alt="" coords="316,5,448,97"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1TwitterModule.html" title="{Area.Models.TwitterModule\n|+ access_token\l+ secret_token\l&#45; index\l&#45; twitter\l&#45; reactions\l&#45; actions\l|+ TwitterModule()\l+ PostTweet()\l+ GetMyLastTweet()\l+ GetLastHashTag()\l+ getAction()\l+ postReaction()\l}" alt="" coords="403,154,604,378"/>
+<area shape="rect" id="node5" href="$classArea_1_1Models_1_1AREA.html" title="{Area.Models.AREA\n|+ id\l+ username\l+ type\l+ index_action\l+ index_reaction\l+ last_event\l|}" alt="" coords="628,191,771,341"/>
+</map>

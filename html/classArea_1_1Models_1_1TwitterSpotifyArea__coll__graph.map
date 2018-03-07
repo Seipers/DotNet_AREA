@@ -1,0 +1,7 @@
+<map id="Area.Models.TwitterSpotifyArea" name="Area.Models.TwitterSpotifyArea">
+<area shape="rect" id="node2" href="$interfaceArea_1_1Models_1_1IArea.html" title="{IArea\n||+ run()\l+ isAvailable()\l}" alt="" coords="5,235,124,327"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1SpotifyModule.html" title="{Area.Models.SpotifyModule\n|+ access_token\l&#45; spotify\l&#45; index\l&#45; reactions\l&#45; actions\l|+ SpotifyModule()\l+ PlayMusic()\l+ PlayAlbum()\l+ PlayPlaylist()\l+ PlayArtist()\l+ CreatePlaylist()\l+ AddMusicPlaylist()\l+ getCurrentMusic()\l+ getAction()\l+ postReaction()\l}" alt="" coords="148,147,349,415"/>
+<area shape="rect" id="node4" href="$interfaceArea_1_1Models_1_1IModuleModel.html" title="{IModuleModel\n||+ getAction()\l+ postReaction()\l}" alt="" coords="295,5,427,97"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1TwitterModule.html" title="{Area.Models.TwitterModule\n|+ access_token\l+ secret_token\l&#45; index\l&#45; twitter\l&#45; reactions\l&#45; actions\l|+ TwitterModule()\l+ PostTweet()\l+ GetMyLastTweet()\l+ GetLastHashTag()\l+ getAction()\l+ postReaction()\l}" alt="" coords="373,169,575,393"/>
+<area shape="rect" id="node5" href="$classArea_1_1Models_1_1AREA.html" title="{Area.Models.AREA\n|+ id\l+ username\l+ type\l+ index_action\l+ index_reaction\l+ last_event\l|}" alt="" coords="599,205,741,356"/>
+</map>

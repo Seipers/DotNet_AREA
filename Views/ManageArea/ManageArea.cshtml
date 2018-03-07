@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Manage Area";
+}
+@using Area.Models;
+@{
+    var active = ViewData["active_areas"] as List<AreaType>;    
+    var available = ViewData["available_areas"] as List<AreaType>;    
+    var unavailable = ViewData["unavailable_areas"] as List<AreaType>;    
+}
+
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Active Areas
+            </div>
+            <ul class="list-group">
+                @foreach (var x in active)
+                {
+                    <li class="list-group-item">
+                        <form action=@x.delete_url>
+                            <input class="btn btn-info pull-right" type="submit" value="Delete"/>
+                        </form>
+                        <span style="font-weight: bold">@x.name</span>
+                        <br/>@x.description
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Available Areas
+            </div>
+            <ul class="list-group">
+                @foreach (var x in available)
+                {
+                    <li class="list-group-item">
+                        <form action=@x.create_url>
+                            <input class="btn btn-info pull-right" type="submit" value="Create"/>
+                        </form>
+                        <span style="font-weight: bold">@x.name</span>
+                        <br/>@x.description
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Unavailable Areas
+            </div>
+            <ul class="list-group">
+                @foreach (var x in unavailable)
+                {
+                    <li class="list-group-item">
+                        <span style="font-weight: bold">@x.name</span><br/>@x.description
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

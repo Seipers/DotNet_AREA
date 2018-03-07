@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "SpotifyAuth";
+}
+<h1>@ViewData["Token"]</h1>
+<h1>@ViewData["Secret"]</h1>
+
+<h1>Connected</h1>
+<script type="text/javascript" language="javascript">
+    var hashes = window.location.hash;
+    hashes = hashes.replace("#", "?");
+    if (hashes !== "")
+        window.location = hashes;
+</script>

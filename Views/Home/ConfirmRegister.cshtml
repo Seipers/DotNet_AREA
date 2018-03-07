@@ -1,0 +1,32 @@
+@using Area.Models
+@{
+    ViewData["Title"] = "ConfirmRegister";
+    var error = ViewData["ErrorConf"] as List<ErrorLog>;
+}
+
+@model Area.Models.FormCode
+
+<head>
+<meta charset="utf-8" />
+<title></title>
+</head>
+<body>
+    @foreach (var x in error)
+    {
+        @if (x.enabl == true)
+        {
+            <h5><font color="red">@x.message</font></h5>
+        }
+    }
+<table border="0" align="center">
+<tr>
+<td>
+<form name="Index" asp-controller="Home" method="POST">  
+<label asp-for="code">Enter Code</label>  
+<input type="code" name="code" placeholder="1234" required value = ""> 
+<input type="submit" value="Validate"> 
+</form>  
+</td>
+</tr>
+</table>
+</body>

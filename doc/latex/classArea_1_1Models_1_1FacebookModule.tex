@@ -1,0 +1,210 @@
+\hypertarget{classArea_1_1Models_1_1FacebookModule}{}\section{Area.\+Models.\+Facebook\+Module Class Reference}
+\label{classArea_1_1Models_1_1FacebookModule}\index{Area.\+Models.\+Facebook\+Module@{Area.\+Models.\+Facebook\+Module}}
+
+
+Inheritance diagram for Area.\+Models.\+Facebook\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classArea_1_1Models_1_1FacebookModule__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Area.\+Models.\+Facebook\+Module\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classArea_1_1Models_1_1FacebookModule__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_ae316294726eb340c34653d405b244682}{Facebook\+Module}} (string access\+Token, int index)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a2945ca6108f012ea53ea172e97bcd267}{get\+Access\+Token}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_ace52541633256d5401d817e8e83a8753}{set\+Index}} (int idx)
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a374b7b02158cb5b6a128d309fe355638}{Post\+On\+Facebook}} (string to\+Post)
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a5f6a9c9d1fbbb460c4dce234cda99e5e}{Get\+Email}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a1e30037d6e0356e4600b944125f4fbe7}{Get\+Cover}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_af68384d31672703c55507bf26cbb22bf}{Get\+Full\+Name}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a3684449e4150b927a132f20c52e7b568}{Get\+First\+Name}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a6a914f79bdec507a46726e8633f9e8c1}{Get\+Last\+Name}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_aa43092f0d311e77e152eb60963d90de5}{Get\+Age\+Range}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_ae92704bd810ff0c1aadba2e970292280}{Get\+Gender}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_ab9a21a8a45ed5426a2a92e2fcdb440f4}{Get\+Locale}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a8aaaadbcc1671809ce22415b38dd2d50}{Get\+Picture}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a83085dabb1a020b586486e67f9814b76}{Get\+User\+Last\+Posts}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a86f4f25674d0aef1fc39293f40960c29}{Get\+User\+Last\+Posts\+Epured}} ()
+\item 
+string \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_aeb88d4de280aa76fa80c92509b7df265}{get\+Action}} ()
+\item 
+void \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_aa992d24aaa0e9ebd0a2f2c38607222d5}{post\+Reaction}} (string reaction)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Facebook\+Client \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a01ca890a1b43dd2765a55e8dbe1b6708}{\+\_\+fb}} = new Facebook\+Client()
+\item 
+int \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a3c45be1580ff5b5853497647af595c36}{\+\_\+index}}
+\item 
+Dictionary$<$ int, Func$<$ string $>$ $>$ \mbox{\hyperlink{classArea_1_1Models_1_1FacebookModule_a6fbe12ae79bf0e6d3a4b24048c4736a6}{actions}} = new Dictionary$<$int, Func$<$string$>$$>$()
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_ae316294726eb340c34653d405b244682}\label{classArea_1_1Models_1_1FacebookModule_ae316294726eb340c34653d405b244682}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Facebook\+Module@{Facebook\+Module}}
+\index{Facebook\+Module@{Facebook\+Module}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Facebook\+Module()}{FacebookModule()}}
+{\footnotesize\ttfamily Area.\+Models.\+Facebook\+Module.\+Facebook\+Module (\begin{DoxyParamCaption}\item[{string}]{access\+Token,  }\item[{int}]{index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a2945ca6108f012ea53ea172e97bcd267}\label{classArea_1_1Models_1_1FacebookModule_a2945ca6108f012ea53ea172e97bcd267}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!get\+Access\+Token@{get\+Access\+Token}}
+\index{get\+Access\+Token@{get\+Access\+Token}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{get\+Access\+Token()}{getAccessToken()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+get\+Access\+Token (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_aeb88d4de280aa76fa80c92509b7df265}\label{classArea_1_1Models_1_1FacebookModule_aeb88d4de280aa76fa80c92509b7df265}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!get\+Action@{get\+Action}}
+\index{get\+Action@{get\+Action}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{get\+Action()}{getAction()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+get\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_a050d892fae9f85c6b607a7c0e30502e9}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_aa43092f0d311e77e152eb60963d90de5}\label{classArea_1_1Models_1_1FacebookModule_aa43092f0d311e77e152eb60963d90de5}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Age\+Range@{Get\+Age\+Range}}
+\index{Get\+Age\+Range@{Get\+Age\+Range}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Age\+Range()}{GetAgeRange()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Age\+Range (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a1e30037d6e0356e4600b944125f4fbe7}\label{classArea_1_1Models_1_1FacebookModule_a1e30037d6e0356e4600b944125f4fbe7}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Cover@{Get\+Cover}}
+\index{Get\+Cover@{Get\+Cover}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Cover()}{GetCover()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Cover (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a5f6a9c9d1fbbb460c4dce234cda99e5e}\label{classArea_1_1Models_1_1FacebookModule_a5f6a9c9d1fbbb460c4dce234cda99e5e}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Email@{Get\+Email}}
+\index{Get\+Email@{Get\+Email}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Email()}{GetEmail()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Email (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a3684449e4150b927a132f20c52e7b568}\label{classArea_1_1Models_1_1FacebookModule_a3684449e4150b927a132f20c52e7b568}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+First\+Name@{Get\+First\+Name}}
+\index{Get\+First\+Name@{Get\+First\+Name}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+First\+Name()}{GetFirstName()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+First\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_af68384d31672703c55507bf26cbb22bf}\label{classArea_1_1Models_1_1FacebookModule_af68384d31672703c55507bf26cbb22bf}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Full\+Name@{Get\+Full\+Name}}
+\index{Get\+Full\+Name@{Get\+Full\+Name}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Full\+Name()}{GetFullName()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Full\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_ae92704bd810ff0c1aadba2e970292280}\label{classArea_1_1Models_1_1FacebookModule_ae92704bd810ff0c1aadba2e970292280}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Gender@{Get\+Gender}}
+\index{Get\+Gender@{Get\+Gender}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Gender()}{GetGender()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Gender (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a6a914f79bdec507a46726e8633f9e8c1}\label{classArea_1_1Models_1_1FacebookModule_a6a914f79bdec507a46726e8633f9e8c1}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Last\+Name@{Get\+Last\+Name}}
+\index{Get\+Last\+Name@{Get\+Last\+Name}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Last\+Name()}{GetLastName()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Last\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_ab9a21a8a45ed5426a2a92e2fcdb440f4}\label{classArea_1_1Models_1_1FacebookModule_ab9a21a8a45ed5426a2a92e2fcdb440f4}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Locale@{Get\+Locale}}
+\index{Get\+Locale@{Get\+Locale}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Locale()}{GetLocale()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Locale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a8aaaadbcc1671809ce22415b38dd2d50}\label{classArea_1_1Models_1_1FacebookModule_a8aaaadbcc1671809ce22415b38dd2d50}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+Picture@{Get\+Picture}}
+\index{Get\+Picture@{Get\+Picture}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+Picture()}{GetPicture()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+Picture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a83085dabb1a020b586486e67f9814b76}\label{classArea_1_1Models_1_1FacebookModule_a83085dabb1a020b586486e67f9814b76}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+User\+Last\+Posts@{Get\+User\+Last\+Posts}}
+\index{Get\+User\+Last\+Posts@{Get\+User\+Last\+Posts}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+User\+Last\+Posts()}{GetUserLastPosts()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+User\+Last\+Posts (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a86f4f25674d0aef1fc39293f40960c29}\label{classArea_1_1Models_1_1FacebookModule_a86f4f25674d0aef1fc39293f40960c29}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Get\+User\+Last\+Posts\+Epured@{Get\+User\+Last\+Posts\+Epured}}
+\index{Get\+User\+Last\+Posts\+Epured@{Get\+User\+Last\+Posts\+Epured}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Get\+User\+Last\+Posts\+Epured()}{GetUserLastPostsEpured()}}
+{\footnotesize\ttfamily string Area.\+Models.\+Facebook\+Module.\+Get\+User\+Last\+Posts\+Epured (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a374b7b02158cb5b6a128d309fe355638}\label{classArea_1_1Models_1_1FacebookModule_a374b7b02158cb5b6a128d309fe355638}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!Post\+On\+Facebook@{Post\+On\+Facebook}}
+\index{Post\+On\+Facebook@{Post\+On\+Facebook}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{Post\+On\+Facebook()}{PostOnFacebook()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Facebook\+Module.\+Post\+On\+Facebook (\begin{DoxyParamCaption}\item[{string}]{to\+Post }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_aa992d24aaa0e9ebd0a2f2c38607222d5}\label{classArea_1_1Models_1_1FacebookModule_aa992d24aaa0e9ebd0a2f2c38607222d5}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!post\+Reaction@{post\+Reaction}}
+\index{post\+Reaction@{post\+Reaction}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{post\+Reaction()}{postReaction()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Facebook\+Module.\+post\+Reaction (\begin{DoxyParamCaption}\item[{string}]{reaction }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \mbox{\hyperlink{interfaceArea_1_1Models_1_1IModuleModel_af2c1a82bd894255ab2099440f4f3d6f7}{Area.\+Models.\+I\+Module\+Model}}.
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_ace52541633256d5401d817e8e83a8753}\label{classArea_1_1Models_1_1FacebookModule_ace52541633256d5401d817e8e83a8753}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!set\+Index@{set\+Index}}
+\index{set\+Index@{set\+Index}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{set\+Index()}{setIndex()}}
+{\footnotesize\ttfamily void Area.\+Models.\+Facebook\+Module.\+set\+Index (\begin{DoxyParamCaption}\item[{int}]{idx }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a01ca890a1b43dd2765a55e8dbe1b6708}\label{classArea_1_1Models_1_1FacebookModule_a01ca890a1b43dd2765a55e8dbe1b6708}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!\+\_\+fb@{\+\_\+fb}}
+\index{\+\_\+fb@{\+\_\+fb}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{\+\_\+fb}{\_fb}}
+{\footnotesize\ttfamily Facebook\+Client Area.\+Models.\+Facebook\+Module.\+\_\+fb = new Facebook\+Client()\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a3c45be1580ff5b5853497647af595c36}\label{classArea_1_1Models_1_1FacebookModule_a3c45be1580ff5b5853497647af595c36}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!\+\_\+index@{\+\_\+index}}
+\index{\+\_\+index@{\+\_\+index}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{\+\_\+index}{\_index}}
+{\footnotesize\ttfamily int Area.\+Models.\+Facebook\+Module.\+\_\+index\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classArea_1_1Models_1_1FacebookModule_a6fbe12ae79bf0e6d3a4b24048c4736a6}\label{classArea_1_1Models_1_1FacebookModule_a6fbe12ae79bf0e6d3a4b24048c4736a6}} 
+\index{Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}!actions@{actions}}
+\index{actions@{actions}!Area\+::\+Models\+::\+Facebook\+Module@{Area\+::\+Models\+::\+Facebook\+Module}}
+\subsubsection{\texorpdfstring{actions}{actions}}
+{\footnotesize\ttfamily Dictionary$<$int, Func$<$string$>$ $>$ Area.\+Models.\+Facebook\+Module.\+actions = new Dictionary$<$int, Func$<$string$>$$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Models/\+Modules/\mbox{\hyperlink{FacebookModule_8cs}{Facebook\+Module.\+cs}}\end{DoxyCompactItemize}

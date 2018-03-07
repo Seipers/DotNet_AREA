@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['updatecharacter',['updateCharacter',['../classArea_1_1Models_1_1WoWModuleModel.html#a300d26f5cbb39e4176a39f1a7b1e9991',1,'Area::Models::WoWModuleModel']]],
+  ['user',['User',['../classArea_1_1Models_1_1User.html',1,'Area::Models']]],
+  ['user_2ecs',['User.cs',['../User_8cs.html',1,'']]],
+  ['user_5frole',['User_role',['../classArea_1_1Models_1_1User__role.html',1,'Area::Models']]],
+  ['user_5frole_2ecs',['User_Role.cs',['../User__Role_8cs.html',1,'']]],
+  ['user_5froles',['user_roles',['../classArea_1_1DAT_1_1AreaDbContext.html#aadce9e078963a91065c5f084dcc4656c',1,'Area.DAT.AreaDbContext.user_roles()'],['../classArea_1_1DAT_1_1AreaDbThreadContext.html#a371fd9e63da8effa604887e7ef010151',1,'Area.DAT.AreaDbThreadContext.user_roles()']]],
+  ['username',['username',['../classArea_1_1Models_1_1AREA.html#ac0f022aa1dd982291b6a25e9c8fd1732',1,'Area.Models.AREA.username()'],['../classArea_1_1Models_1_1FacebookSpotifyArea.html#a50cb6f7d6d1d44a1c5ddd5997597fcab',1,'Area.Models.FacebookSpotifyArea.username()'],['../classArea_1_1Models_1_1FacebookTwitterArea.html#ab361e159ba9a67bdd3f12fa0dac4b3a1',1,'Area.Models.FacebookTwitterArea.username()'],['../classArea_1_1Models_1_1SpotifyTwitterArea.html#aae8f07752b2dba87df70bec18efb42c5',1,'Area.Models.SpotifyTwitterArea.username()'],['../classArea_1_1Models_1_1TwitterSpotifyArea.html#a08144e22ff5cd628395959a2f0e91f29',1,'Area.Models.TwitterSpotifyArea.username()'],['../classArea_1_1Models_1_1FormLogin.html#a4702f49df99650fe317cf8e02b721921',1,'Area.Models.FormLogin.username()'],['../classArea_1_1Models_1_1FormRegister.html#a065f953c377405bee288651cf6cec86c',1,'Area.Models.FormRegister.username()'],['../classArea_1_1Models_1_1Token.html#a9c0383e282fba4e7ef6356eb5271661d',1,'Area.Models.Token.username()'],['../classArea_1_1Models_1_1User.html#aa8dd2b8cd2c1550a96a53523fd4f5026',1,'Area.Models.User.username()'],['../classArea_1_1Models_1_1WoWCharacterModel.html#aefed2f25918ebc75f25e92ac69153c0c',1,'Area.Models.WoWCharacterModel.username()']]],
+  ['users',['users',['../classArea_1_1DAT_1_1AreaDbContext.html#a70a40f34149640aa8dad936e92d94147',1,'Area.DAT.AreaDbContext.users()'],['../classArea_1_1DAT_1_1AreaDbThreadContext.html#a58df7d30567900ef42b1e26bfc2bbba0',1,'Area.DAT.AreaDbThreadContext.users()']]]
+];

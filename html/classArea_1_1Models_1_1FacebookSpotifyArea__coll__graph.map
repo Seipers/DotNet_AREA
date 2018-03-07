@@ -1,0 +1,7 @@
+<map id="Area.Models.FacebookSpotifyArea" name="Area.Models.FacebookSpotifyArea">
+<area shape="rect" id="node2" href="$interfaceArea_1_1Models_1_1IArea.html" title="{IArea\n||+ run()\l+ isAvailable()\l}" alt="" coords="5,235,124,327"/>
+<area shape="rect" id="node3" href="$classArea_1_1Models_1_1SpotifyModule.html" title="{Area.Models.SpotifyModule\n|+ access_token\l&#45; spotify\l&#45; index\l&#45; reactions\l&#45; actions\l|+ SpotifyModule()\l+ PlayMusic()\l+ PlayAlbum()\l+ PlayPlaylist()\l+ PlayArtist()\l+ CreatePlaylist()\l+ AddMusicPlaylist()\l+ getCurrentMusic()\l+ getAction()\l+ postReaction()\l}" alt="" coords="148,147,349,415"/>
+<area shape="rect" id="node4" href="$interfaceArea_1_1Models_1_1IModuleModel.html" title="{IModuleModel\n||+ getAction()\l+ postReaction()\l}" alt="" coords="299,5,431,97"/>
+<area shape="rect" id="node6" href="$classArea_1_1Models_1_1FacebookModule.html" title="{Area.Models.FacebookModule\n|&#45; _fb\l&#45; _index\l&#45; actions\l|+ FacebookModule()\l+ getAccessToken()\l+ setIndex()\l+ PostOnFacebook()\l+ GetEmail()\l+ GetCover()\l+ GetFullName()\l+ GetFirstName()\l+ GetLastName()\l+ GetAgeRange()\land 7 more...\l}" alt="" coords="374,154,593,407"/>
+<area shape="rect" id="node5" href="$classArea_1_1Models_1_1AREA.html" title="{Area.Models.AREA\n|+ id\l+ username\l+ type\l+ index_action\l+ index_reaction\l+ last_event\l|}" alt="" coords="617,205,760,356"/>
+</map>
